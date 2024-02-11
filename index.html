@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calaculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame">
+        <div class="input">
+            <input type="text" name="" id="screen">
+        </div>
+        <button onclick="clearDisplay()"><label for="">C</label></button>        
+        <div class="row">
+            <button onclick="bclick(1)"><label for="">1</label></button>
+            <button onclick="bclick(2)"><label for="">2</label></button>
+            <button onclick="bclick(3)"><label for="">3</label></button>
+            <button onclick="bclick('+')"><label for="">+</label></button><br>
+        </div>
+        <div class="row">
+            <button onclick="bclick(4)"><label for="">4</label></button>
+            <button onclick="bclick(5)"><label for="">5</label></button>
+            <button onclick="bclick(6)"><label for="">6</label></button>
+            <button onclick="bclick('-')"><label for="">-</label></button><br>
+        </div>
+        <div class="row">
+            <button onclick="bclick(7)"><label for="">7</label></button>
+            <button onclick="bclick(8)"><label for="">8</label></button>
+            <button onclick="bclick(9)"><label for="">9</label></button>
+            <button onclick="bclick('*')"><label for="">x</label></button><br>
+        </div>
+        <div class="row">
+            <button onclick="bclick('/')"><label for="">/</label></button>
+            <button onclick="bclick('.')"><label for="">.</label></button>
+            <button onclick="bclick(0)"><label for="">0</label></button>
+            <button onclick="equalClick()"><label for="">=</label></button>    
+        </div>
+        
+       
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
